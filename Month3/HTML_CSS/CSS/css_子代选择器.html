@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--使用后代选择器-->
+    <style>
+        div span {
+            color: red;
+            size: 15px;
+        }
+    /*使用子代选择器获取p元素*/
+        div>p{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+<div>祖先元素
+    <p>父级元素
+        <span>
+            子级元素
+        </span>
+    </p>
+</div>
+</body>
+</html>

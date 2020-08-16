@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--使用伪类选择器-->
+    <style>
+        /*过滤*/
+        p > span:hover {
+            color: white;
+            background-color: red;
+        }
+
+        input:focus {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p>
+        <span>三国演义</span>
+        <span>水浒传</span>
+        <span>西游记</span>
+        <span>红楼梦</span>
+        <br>
+        <input type="text">
+    </p>
+</div>
+</body>
+</html>
